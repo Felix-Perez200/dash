@@ -954,9 +954,10 @@
             }
             svg .state:hover .label_pueblo {
                 display: block;
-                onclick="";
             }
-
+            svg .state:active .label_pueblo {
+                display: block;
+            }
           </style>
     
 

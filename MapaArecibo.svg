@@ -887,7 +887,7 @@
       </a>
 <a  class="state" >
   <path id="Hato Abajo" class="pueblo" 
-        fill="purple" stroke="white" stroke-width="4" 
+        fill="purple" stroke="white" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 36.00,58.00
            C 33.42,62.34 26.57,74.55 25.48,79.00
              24.79,82.01 25.79,84.96 25.48,88.00
@@ -959,7 +959,24 @@
                 display: block;
             }
           </style>
-    
+<script>
+   function showTooltip(evt, text) {
+  let tooltip = document.getElementById("tooltip");
+ 
+
+  tooltip.style.display = "block";
+  tooltip.style.left = evt.pageX + 10 + 'px';
+  tooltip.style.top = evt.pageY + 10 + 'px';
+}
+
+function hideTooltip() {
+  var tooltip = document.getElementById("tooltip");
+  tooltip.style.display = "none";
+}
+</script>    
+
+
+
 
   </svg>
 

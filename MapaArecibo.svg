@@ -5,7 +5,7 @@
      viewBox="-100 -50 1030 968" >
 <a  class="state" >
   <path id="Sabana Hoyos" class ="pueblo" 
-        fill="green" stroke="white" stroke-width="4" 
+        fill="green" stroke="white" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 669.00,690.00
            C 670.95,696.24 674.19,695.94 680.00,696.00
              680.00,696.00 681.60,700.57 681.60,700.57

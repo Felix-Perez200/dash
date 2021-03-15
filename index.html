@@ -1,37 +1,44 @@
-<html> 
-    <Head>
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:og="http://ogp.me/ns#"> 
+    <Head class=header>
+        
+    <title>SMICRC-Arecibo</title>
+    <meta property="og:title" content="Any title here" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="thumb.jpg" />
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        
-        <div class = "container-fluid">
-            <div class="jumbotron text-center" style="background-color:#093444 ;">
-                <img class="img-fluid" src="SIRC-ALT.svg" fill="white" alt="" >
-                <p class="lead" style="color: aliceblue;">Febrero 18 2021</p>
-            </div>
-        </div>
     </Head>
 
     <body>
-        <div class="container-fluid no-gutters justify-content-center"></div>
-            <div class="row no-gutters justify-content-center ">
-                <div class="col-lg-10 col-md-11 col-xs-12 embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" src="grid.html" scrolling="no" ></iframe>
+        
+
+        <div class="container-fluid ">
+            <div class="jumbotron text-center" style="background-color:#093444 ;">
+                <img class="img-fluid" src="logo-25.svg"  alt="" >
+                <p class="lead" style="color: aliceblue;">Febrero 18 2021</p>
+            </div>
+            <div class="row no-gutters justify-content-center">
+              
+                <div class="bar col-lg-11 col-md-8 col-xs-12 embed-responsive embed-responsive-16by9" >
+                    <iframe class="embed-responsive-item" src="grid.html" scrolling="no"></iframe>
                 </div>
-                <div class="col-lg-5 col-md-6 col-xs-2 embed-responsive embed-responsive-1by1">
+                <div class="line col-lg-5 col-md-6 col-xs-2 embed-responsive embed-responsive-1by1">
                     <iframe class="embed-responsive-item " src="line.html"  scrolling="no" ></iframe>
                 </div>
 
-                <div class="col-lg-5 col-md-6 col-xs-1 embed-responsive embed-responsive-1by1">
+                <div class="pie col-lg-5 col-md-6 col-xs-4 embed-responsive embed-responsive-1by1" >
                     <iframe class="embed-responsive-item " src="pie.html"  scrolling="no" ></iframe>
                 </div>
-                <div class="col-lg-6 col-md-6 col-xs-7 align-self-center embed-responsive embed-responsive-4by3" >
+                <div class="table col-lg-5 col-md-6 col-xs-7 embed-responsive embed-responsive-1by1" >
                     <iframe class="embed-responsive-item " src="widgets.html"  scrolling="no" ></iframe>
                 </div>
-                <div class="map col-lg-6 col-md-6 col-xs-7 align-self-center embed-responsive embed-responsive-1by1"  >
+                <div class="map col-lg-5 col-md-6 col-xs-7 embed-responsive embed-responsive-1by1"  >
                     <iframe class="embed-responsive-item" src="MapaArecibo.svg" scrolling="no" ></iframe>
                 </div>
             </div>
@@ -42,18 +49,36 @@
 </html>
 
 <style>
-    .embed-responsive-21by9 {
-        padding-bottom: 10%;
-        }
-    .embed-responsive-4by3 .map {
-        padding-top: 60%;}
+    .container-fluid{
+        
+        justify-content: center;
+        align-items: center;
+        background-color: ivory;
+       
+
+    }
+  
+
 
     
-@media only screen and (min-width: 375px){
+@media only screen and (max-width: 768px){
 .embed-responsive-21by9 {padding-top: 10%;}
-.embed-responsive-4by3 {padding-top: 10%;}
+.embed-responsive-16by9 {padding-top: 10%;}
+.bar{order:1;}
+.line{order:2;}
+.pie{padding-right: 10%; order:3 }
+.table{padding-bottom: 30%; order: 5;}
+.map{padding-bottom: 10%; order: 4;}
 }
-
+@media only screen and (max-width: 400px){
+.embed-responsive-21by9 {padding-top: 10%;}
+.embed-responsive-16by9 {padding-top: 10%;}
+.bar{order:1;}
+.line{order:2;}
+.pie{padding-right: 10%; order:3 }
+.table{padding-bottom: 90%; order: 5;}
+.map{padding-bottom: 10%; order: 4;}
+}
 
 
 </style>

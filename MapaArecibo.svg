@@ -1,11 +1,11 @@
 
 
 <svg id="mapa" xmlns="http://www.w3.org/2000/svg" 
-     width="400px" height="400px"
-     viewBox="-100 -50 1030 968" >
+     width="1fr" height="1fr" 
+     viewBox="-300 90 1430 968" >
 <a  class="state" >
-  <path id="Sabana Hoyos" class ="pueblo" 
-        fill="green" stroke="white" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
+  <path id="Sabana Hoyos" class ="zona5" 
+        fill="#315C2B" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 669.00,690.00
            C 670.95,696.24 674.19,695.94 680.00,696.00
              680.00,696.00 681.60,700.57 681.60,700.57
@@ -109,11 +109,13 @@
              641.00,699.30 651.58,694.16 651.58,694.16
              653.39,693.84 655.12,694.78 658.00,694.16
              662.44,693.08 662.48,690.99 669.00,690.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 5 - Sabana Hoyos</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 5 - <tspan>Sabana Hoyos</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>9</tspan> </text>             
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Carrochales" class ="pueblo"
-        fill="yellow" stroke="white" stroke-width="4"
+  <path id="Carrochales" class ="zona4"
+        fill="#D8A629" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 783.00,247.00
            C 783.00,242.68 781.87,235.77 786.15,233.31
              791.96,229.97 801.52,234.84 803.77,228.85
@@ -143,11 +145,13 @@
              736.87,251.60 740.96,254.95 745.00,255.73
              754.36,257.53 762.60,251.39 771.00,248.44
              775.77,246.76 778.09,247.00 783.00,247.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 4 - Carrochales</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 4 - <tspan>Carrochales</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>29</tspan> </text>             
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Factor" class ="pueblo"
-        fill="yellow" stroke="white" stroke-width="4"
+  <path id="Factor" class ="zona4"
+        fill="#D8A629" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 666.94,66.57
            C 657.07,67.41 647.96,68.44 639.00,73.35
              639.00,73.35 620.00,85.99 620.00,85.99
@@ -188,11 +192,13 @@
              667.05,86.30 667.86,79.58 668.68,76.00
              669.11,74.12 670.72,70.00 670.19,68.33
              669.62,66.51 668.37,66.79 666.94,66.57 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 4 - Factor</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 4 - <tspan>Sabana Hoyos</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>9</tspan> </text>             
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Arrozal" class ="pueblo"
-        fill="blue" stroke="white" stroke-width="4"
+  <path id="Arrozal" class ="zona3"
+        fill="#093444" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 513.00,387.64
            C 513.00,387.64 483.00,400.49 483.00,400.49
              483.00,400.49 474.00,405.89 474.00,405.89
@@ -239,11 +245,13 @@
              585.00,397.00 575.00,396.09 575.00,396.09
              564.02,395.34 552.84,395.61 542.00,393.34
              534.93,391.85 519.08,386.57 513.00,387.64 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 3 - Arrozal</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 3 - <tspan>Arrozal</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>9</tspan> </text> 
+          <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Miraflores" class ="pueblo"
-        fill="blue" stroke="white" stroke-width="4"
+  <path id="Miraflores" class ="zona3"
+        fill="#093444" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 395.00,368.00
            C 395.09,372.21 397.31,385.51 399.93,388.40
              401.43,390.06 403.94,389.98 406.00,390.28
@@ -277,11 +285,13 @@
              460.46,320.00 442.03,348.00 442.03,348.00
              436.19,356.28 429.15,365.58 419.00,368.78
              413.94,370.37 400.67,368.75 395.00,368.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 3 - Miraflores</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 3 - <tspan>Miraflores</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>9</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Arenalejos" class ="pueblo"
-        fill="blue" stroke="white" stroke-width="4"
+  <path id="Arenalejos" class ="zona3"
+        fill="#093444" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 371.00,313.00
            C 383.47,313.28 386.68,317.86 392.50,328.00
              394.74,331.91 397.40,335.22 397.40,340.00
@@ -307,11 +317,13 @@
              384.64,284.91 387.37,285.78 383.68,293.00
              383.68,293.00 377.31,304.96 377.31,304.96
              374.90,308.41 373.19,308.74 371.00,313.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 3 - Arenalejos</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 3 - <tspan>Arenalejos</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>12</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Santana" class ="pueblo"
-        fill="yellow" stroke="white" stroke-width="4"
+  <path id="Santana" class ="zona4"
+        fill="#D8A629" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 378.00,119.00
            C 375.23,123.87 368.14,137.75 368.29,143.00
              368.36,145.64 369.84,149.51 370.81,152.00
@@ -343,11 +355,13 @@
              406.87,124.11 404.10,122.33 401.00,122.30
              401.00,122.30 394.00,123.18 394.00,123.18
              388.97,123.36 382.35,121.41 378.00,119.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 4 - Santana</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 4 - <tspan>Santana</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>29</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Islote" class ="pueblo"
-        fill="yellow" stroke="white" stroke-width="4"
+  <path id="Islote" class ="zona4"
+        fill="#D8A629" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 614.00,14.00
            C 612.67,15.70 611.97,16.90 609.96,17.98
              604.85,20.70 594.11,18.83 590.00,15.00
@@ -407,11 +421,13 @@
              650.40,19.12 644.77,14.92 634.00,13.33
              627.13,12.31 627.63,16.23 623.90,17.04
              621.40,17.59 616.80,14.88 614.00,14.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 4 - Islote</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 4 - <tspan>Islote</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>29</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Cambalache" class ="pueblo"
-        fill="yellow" stroke="white" stroke-width="4"
+  <path id="Cambalache" class ="zona4"
+        fill="#D8A629" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 380.00,116.00
            C 383.91,124.73 394.68,120.78 402.00,121.30
              404.73,121.49 407.23,122.92 410.00,122.47
@@ -447,11 +463,13 @@
              372.31,158.24 370.91,155.21 369.60,152.00
              365.01,140.71 367.51,138.48 372.14,128.00
              374.63,122.37 374.96,120.04 380.00,116.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 4 - Cambalache</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 4 - <tspan>Cambalache</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>29</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Domingo Ruiz" class ="pueblo"
-        fill="blue" stroke="white" stroke-width="4"
+  <path id="Domingo Ruiz" class ="zona3"
+        fill="#093444" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 312.00,213.00
            C 315.67,220.16 322.91,218.54 323.45,229.00
              323.64,232.61 321.20,237.39 317.00,236.96
@@ -486,11 +504,13 @@
              369.00,209.00 349.00,210.00 349.00,210.00
              338.22,210.06 341.02,213.10 335.96,213.56
              328.39,214.25 320.49,210.59 312.00,213.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 2 - Domingo Ruiz</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 3 - <tspan>Domingo Ruiz</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>12</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Carreras" class ="pueblo"
-        fill="blue" stroke="white" stroke-width="4"
+  <path id="Carreras" class ="zona3"
+        fill="#093444" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 371.00,314.00
            C 374.65,322.55 381.03,324.71 380.52,332.00
              379.67,343.99 370.88,347.91 364.96,357.00
@@ -532,11 +552,13 @@
              391.44,349.46 397.27,345.88 395.78,337.00
              395.17,333.39 393.27,331.05 391.45,328.00
              385.69,318.37 383.06,314.59 371.00,314.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 3 - Carreras</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 3 - <tspan>Carreras</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>12</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Rio Arriba" class ="pueblo"
-        fill="green" stroke="white" stroke-width="4"
+  <path id="Rio Arriba" class ="zona5"
+        fill="#315C2B" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 215.00,661.00
            C 218.46,666.14 228.69,668.53 227.46,676.00
              226.39,682.52 217.11,684.30 216.15,691.04
@@ -591,11 +613,13 @@
              307.00,631.00 279.00,639.00 279.00,639.00
              279.00,639.00 257.00,647.56 257.00,647.56
              243.00,651.75 228.13,654.28 215.00,661.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 5 - Rio Arriba</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 5 - <tspan>Rio Arriba</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>9</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Hato Viejo" class ="pueblo"
-        fill="red" stroke="white" stroke-width="4"
+  <path id="Hato Viejo" class ="zona2"
+        fill="#CD4631" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 297.00,297.00
            C 296.08,300.93 293.60,304.98 294.24,308.96
              295.20,314.91 300.56,312.96 299.70,319.02
@@ -648,11 +672,13 @@
              319.76,319.10 317.18,318.66 315.00,318.10
              304.46,315.40 303.69,305.27 299.00,297.00
              299.00,297.00 297.00,297.00 297.00,297.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 2 - Hato Viejo</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 2 - <tspan>Hato Viejo</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>34</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Tanama" class ="pueblo"
-        fill="red" stroke="white" stroke-width="4"
+  <path id="Tanama" class ="zona2"
+        fill="#CD4631" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 221.00,155.00
            C 221.00,155.00 214.37,145.74 214.37,145.74
              211.42,143.20 205.63,143.30 203.89,147.15
@@ -712,11 +738,13 @@
              251.06,109.06 250.67,113.09 245.91,117.91
              241.44,122.43 232.32,129.13 229.01,134.01
              225.75,138.84 223.26,149.11 221.00,155.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 2 - Tanama</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 2 - <tspan>Tanama</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>34</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Casco Urbano" class= "pueblo"
-        fill="purple" stroke="white" stroke-width="4"
+  <path id="Casco Urbano" class= "zona1"
+        fill="#81ADC8" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 304.00,67.00
            C 309.89,67.10 310.62,71.91 310.22,77.00
              309.53,85.57 303.72,91.56 297.00,96.24
@@ -755,11 +783,13 @@
              174.00,98.88 155.00,96.49 155.00,96.49
              155.00,96.49 143.00,96.49 143.00,96.49
              143.00,96.49 128.00,92.00 128.00,92.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 1 - Casco Urbano</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 1 - <tspan>Casco Urbano</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>52</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Esperanza" class ="pueblo"
-        fill="red" stroke="white" stroke-width="4"
+  <path id="Esperanza" class ="zona2"
+        fill="#CD4631" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 16.00,720.00
            C 24.97,718.53 21.08,714.18 25.43,710.78
              27.60,709.08 30.49,709.73 33.00,710.00
@@ -806,11 +836,13 @@
              18.00,674.00 17.00,690.00 17.00,690.00
              17.00,690.00 17.00,705.00 17.00,705.00
              17.00,705.00 16.00,720.00 16.00,720.00 Z" />
-            <text class="label_pueblo" x="150" y="0">Zona 2 - Esperanza</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 2 - <tspan>Esperanza</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>34</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Dominguito" class ="pueblo"
-        fill="red" stroke="white" stroke-width="4"
+  <path id="Dominguito" class ="zona2"
+        fill="#CD4631" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 26.00,307.00
            C 25.46,313.61 24.72,315.77 25.04,323.00
              25.04,323.00 26.00,334.00 26.00,334.00
@@ -842,11 +874,13 @@
              91.21,304.74 86.22,302.66 80.00,303.09
              70.89,303.71 71.01,306.98 59.00,307.00
              59.00,307.00 26.00,307.00 26.00,307.00 Z" />
-             <text class="label_pueblo" x="150" y="0">Zona 2 - Dominguito</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 2 - <tspan>Dominguito</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>34</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Hato Arriba" class ="pueblo"
-        fill="red" stroke="white" stroke-width="4"
+  <path id="Hato Arriba" class ="zona2"
+        fill="#CD4631" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 200.00,186.63
            C 191.47,189.23 183.89,190.30 175.00,190.91
              175.00,190.91 165.00,191.47 165.00,191.47
@@ -883,11 +917,13 @@
              218.94,227.05 217.74,218.27 216.06,213.00
              216.06,213.00 212.06,203.00 212.06,203.00
              209.59,196.45 209.14,185.59 200.00,186.63 Z" />
-            <text class="label_pueblo" x="150" y="0">Zona 2 - Hato Arriba</text>
-      </a>
+            <text filter="url(#bg-text)" class="label_pueblo" x="170" y="0" >Zona 2 - <tspan>Hato Arriba</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>34</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
 <a  class="state" >
-  <path id="Hato Abajo" class="pueblo" 
-        fill="purple" stroke="white" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
+  <path id="Hato Abajo" class="zona1" 
+        fill="#81ADC8" stroke="ivory" stroke-width="4" onclick="showTooltip(evt, id);" onchange ="hideTooltip();"
         d="M 36.00,58.00
            C 33.42,62.34 26.57,74.55 25.48,79.00
              24.79,82.01 25.79,84.96 25.48,88.00
@@ -933,15 +969,37 @@
              68.00,69.87 61.00,66.68 61.00,66.68
              61.00,66.68 48.00,62.99 48.00,62.99
              48.00,62.99 36.00,58.00 36.00,58.00 Z" />
-          <text class="label_pueblo" x="150" y="0">Zona 1 - Hato Abajo</text>
-      </a>
+            <text filter="url(#bg-text)"  class="label_pueblo" x="170" y="0" >Zona 1 - <tspan>Hato Abajo</tspan></text>
+            <text class="label_pueblo" x="170" y="890" >Pos: <tspan>52</tspan> </text> 
+            <text class="label_pueblo" x="200" y="-75" > Cantidad total <tspan>134</tspan> </text>
+</a>
           
         
-        
+         
 
           <style>                                
-            svg .pueblo:hover {
-            fill: #d8a629;
+            svg .zona1:hover {
+            fill: ivory;
+            cursor: pointer;
+            webkit-transition: all .1s;
+            }
+            svg .zona2:hover {
+            fill: ivory;
+            cursor: pointer;
+            webkit-transition: all .1s;
+            }
+            svg .zona3:hover {
+            fill: ivory;
+            cursor: pointer;
+            webkit-transition: all .1s;
+            }
+            svg .zona4:hover {
+            fill: ivory;
+            cursor: pointer;
+            webkit-transition: all .1s;
+            }
+            svg .zona5:hover{
+            fill: ivory;
             cursor: pointer;
             webkit-transition: all .1s;
             }
@@ -958,22 +1016,34 @@
             svg .state:active .label_pueblo {
                 display: block;
             }
+            tspan { font: bold 50px sans-serif; fill: #CD4631; }
+            text { background-color:#093444;}
           </style>
-<script>
-   function showTooltip(evt, text) {
-  let tooltip = document.getElementById("tooltip");
- 
 
-  tooltip.style.display = "block";
-  tooltip.style.left = evt.pageX + 10 + 'px';
-  tooltip.style.top = evt.pageY + 10 + 'px';
-}
+      <defs>
+        <filter x="0" y="0" width="1" height="1" id="bg-text">
+          <feFlood flood-color="#093444"/>
+          <feComposite in="SourceGraphic" operator="xor" />
+        </filter>
+      </defs>
 
-function hideTooltip() {
-  var tooltip = document.getElementById("tooltip");
-  tooltip.style.display = "none";
-}
-</script>    
+
+
+          <script>
+            function showTooltip(evt, text) {
+            let tooltip = document.getElementById("tooltip");
+          
+
+            tooltip.style.display = "block";
+            tooltip.style.left = evt.pageX + 10 + 'px';
+            tooltip.style.top = evt.pageY + 10 + 'px';
+          }
+
+          function hideTooltip() {
+            var tooltip = document.getElementById("tooltip");
+            tooltip.style.display = "none";
+          }
+          </script>    
 
 
 

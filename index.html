@@ -20,28 +20,34 @@ xmlns:og="http://ogp.me/ns#">
 
         <div class="container-fluid ">
             <div class="jumbotron text-center" style="background-color:#093444 ;">
-                <img class="img-fluid" src="SALT.svg"  alt="" >
-                <p class="lead" style="color: aliceblue;">Numeros son de ejemplo</p>
+                <img class="img-fluid" src="SIRC-ALT.svg"  alt="" >
+                <p class="lead" style="color: aliceblue;">Actualizacion de data: 20 de Mayo de 2021 </p>
             </div>
-            <div class="row no-gutters justify-content-center">
+            <div class="row justify-content-center">
               
-                <div class="bar col-lg-9 col-md-12 col-xs-12 embed-responsive embed-responsive-21by9" >
-                    <!-- <iframe class="embed-responsive-item" src="grid.html" scrolling="no"></iframe> -->
+                <div class="bar col-lg-8 col-md-12 col-xs-12 embed-responsive embed-responsive-21by9" >
+                    <iframe class="embed-responsive-item" src="grid.html" scrolling="no"></iframe>
+                </div>
+
+                <div class="bar2 col-lg-9 col-md-12 col-xs-12 embed-responsive embed-responsive-21by9" >
                     <iframe class="embed-responsive-item" src="grid2.html" scrolling="no"></iframe>
                 </div>
+                <div class="table col-lg-3 col-md-6 col-xs-12 embed-responsive embed-responsive-1by1" >
+                    <iframe class="embed-responsive-item " src="widgets.html"  scrolling="no" ></iframe>
+                </div>
+
+                <div class="map col-lg-6 col-md-6 col-xs-12 embed-responsive embed-responsive-1by1"  >
+                    <iframe class="embed-responsive-item" src="MapaArecibo.svg"  scrolling="no" ></iframe>
+                </div>
+
                 <div class="line col-lg-5 col-md-6 col-xs-2 embed-responsive embed-responsive-1by1">
                     <iframe class="embed-responsive-item " src="line.html"  scrolling="no" ></iframe>
                 </div>
 
-                <div class="pie col-lg-5 col-md-6 col-xs-4 embed-responsive embed-responsive-1by1" >
+                <div class="pie col-lg-4 col-md-6 col-xs-4 embed-responsive embed-responsive-1by1" >
                     <iframe class="embed-responsive-item " src="pie.html"  scrolling="no" ></iframe>
                 </div>
-                <div class="table col-lg-5 col-md-6 col-xs-7 embed-responsive embed-responsive-1by1" >
-                    <iframe class="embed-responsive-item " src="widgets.html"  scrolling="no" ></iframe>
-                </div>
-                <div class="map col-lg-5 col-md-6 col-xs-7 embed-responsive embed-responsive-1by1"  >
-                    <iframe class="embed-responsive-item" src="MapaArecibo.svg" scrolling="no" ></iframe>
-                </div>
+
             </div>
              
         </div>
@@ -50,34 +56,48 @@ xmlns:og="http://ogp.me/ns#">
 </html>
 
 <style>
-    .container-fluid{
-        
-        justify-content: center;
-        align-items: center;
-        background-color: ivory;
-       
-
-    }
-    .embed-responsive-21by9 {padding-top: 5%;}
-  
-
-
+.container-fluid{
     
-@media only screen and (max-width: 768px){
-.embed-responsive-21by9 {padding-top: 300px;}
-.bar{order:1;}
-.line{order:2;}
-.pie{padding-right: 10%; order:3 }
-.table{padding-bottom: 30%; order: 5;}
-.map{padding-bottom: 10%; order: 4;}
+    justify-content: center;
+    align-items: center;
+    background-color: ivory;
+    
+
 }
-@media only screen and (max-width: 400px){
-.embed-responsive-21by9 {padding-top: 500px;}
-.bar{order:1;}
-.line{order:2;}
-.pie{padding-right: 10%; order:3 }
-.table{padding-bottom: 90%; order: 5;}
-.map{padding-bottom: 10%; order: 4;}
+
+.bar{order:1;
+padding-top: 30%; }
+.bar2{display: none;}
+.line{order:3;}
+.pie{ order:4 }
+.table{order: 2;
+    padding-bottom: 0;}
+.vac{order: 5;}
+.map{order: 6;}
+
+
+@media only screen and (max-width: 768px){
+.bar{display: none;}
+.bar2{order:1;
+    display: block;
+    padding-bottom: 600px;}
+.line{order:3;}
+.pie{ order:4 }
+.table{order: 2;
+    padding-bottom: 150px;}
+.map{order: 5;}
+}
+
+@media only screen and (max-width: 200px){
+.bar{display: none;}
+.bar2{order:1;
+    display: block;
+    padding-bottom: 600px;}
+.line{order:3;}
+.pie{ order:4 }
+.table{order:2;
+       padding-bottom: 150px;}
+.map{order: 5;}
 }
 
 
